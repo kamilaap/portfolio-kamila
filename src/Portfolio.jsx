@@ -598,13 +598,14 @@ export default function Portfolio() {
             ))}
           </div>
           <div className="text-center mt-8">
-            <a 
-              href="#" 
-              className="inline-flex items-center px-6 py-3 border border-blue-500 dark:border-blue-400 text-blue-500 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-md transition-transform hover:-translate-y-1"
-            >
-              Download Resume <ArrowRight size={16} className="ml-2" />
-            </a>
-          </div>
+  <a 
+    href="/assets/CV Kamila.pdf" 
+    download="CV Kamila.pdf"
+    className="inline-flex items-center px-6 py-3 border border-blue-500 dark:border-blue-400 text-blue-500 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/30 rounded-md transition-transform hover:-translate-y-1"
+  >
+    Download Resume <ArrowRight size={16} className="ml-2" />
+  </a>
+</div>
         </div>
       </section>
 
